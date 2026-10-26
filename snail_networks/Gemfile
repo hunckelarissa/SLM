@@ -1,0 +1,23 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+ruby ">= 3.0.0"
+
+# --- Обязательные зависимости ---
+
+# Стандартные библиотеки, вынесенные из default gems в Ruby 3.4+.
+gem "csv"
+gem "logger"
+gem "benchmark"
+
+# Графики активности и схемы топологий пишутся в SVG и не требуют
+# ни ImageMagick, ни Graphviz.
+
+group :development, :test do
+  gem "rspec"
+  gem "rake"
+end
+
+# numo-narray на Ruby 3.4 (mingw) не собирается. Сети считают обычными массивами,
+# графики рисуются в SVG без него.

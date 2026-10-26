@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="346" viewBox="0 0 720 346">
+<style>text{font-family:sans-serif}.title{font-size:14px;fill:#222}.tick,.legend{font-size:11px;fill:#333}.grid{stroke:#ececec}.axis{stroke:#444}</style>
+<rect width="720" height="346" fill="#fff"/>
+<text x="16" y="22" class="title">nested_rings</text>
+<line x1="52" y1="314.00" x2="632" y2="314.00" class="grid"/>
+<text x="46" y="318.00" text-anchor="end" class="tick">-1.16</text>
+<line x1="52" y1="244.00" x2="632" y2="244.00" class="grid"/>
+<text x="46" y="248.00" text-anchor="end" class="tick">-0.58</text>
+<line x1="52" y1="174.00" x2="632" y2="174.00" class="grid"/>
+<text x="46" y="178.00" text-anchor="end" class="tick">-0.00</text>
+<line x1="52" y1="104.00" x2="632" y2="104.00" class="grid"/>
+<text x="46" y="108.00" text-anchor="end" class="tick">0.57</text>
+<line x1="52" y1="34.00" x2="632" y2="34.00" class="grid"/>
+<text x="46" y="38.00" text-anchor="end" class="tick">1.15</text>
+<line x1="52" y1="34" x2="52" y2="314" class="axis"/>
+<line x1="52" y1="314" x2="632" y2="314" class="axis"/>
+<text x="52" y="338" class="tick">0</text>
+<text x="632" y="338" text-anchor="end" class="tick">9</text>
+<polyline points="52.00,271.08 116.44,146.72 180.89,147.43 245.33,293.99 309.78,294.33 374.22,106.15 438.67,103.38 503.11,294.61 567.56,294.69 632.00,152.83" fill="none" stroke="#1f77b4" stroke-width="1.6"/>
+<line x1="646" y1="34" x2="660" y2="34" stroke="#1f77b4" stroke-width="2"/>
+<text x="664" y="38" class="legend">n0</text>
+<polyline points="52.00,220.71 116.44,181.16 180.89,273.51 245.33,275.02 309.78,157.19 374.22,156.85 438.67,286.14 503.11,286.49 567.56,156.52 632.00,156.43" fill="none" stroke="#ff7f0e" stroke-width="1.6"/>
+<line x1="646" y1="48" x2="660" y2="48" stroke="#ff7f0e" stroke-width="2"/>
+<text x="664" y="52" class="legend">n1</text>
+<polyline points="52.00,116.76 116.44,164.90 180.89,205.15 245.33,130.23 309.78,128.63 374.22,222.93 438.67,223.17 503.11,119.62 567.56,119.46 632.00,223.41" fill="none" stroke="#2ca02c" stroke-width="1.6"/>
+<line x1="646" y1="62" x2="660" y2="62" stroke="#2ca02c" stroke-width="2"/>
+<text x="664" y="66" class="legend">n2</text>
+<polyline points="52.00,183.17 116.44,194.53 180.89,182.18 245.33,151.63 309.78,109.68 374.22,136.74 438.67,241.85 503.11,219.89 567.56,85.38 632.00,91.96" fill="none" stroke="#d62728" stroke-width="1.6"/>
+<line x1="646" y1="76" x2="660" y2="76" stroke="#d62728" stroke-width="2"/>
+<text x="664" y="80" class="legend">n3</text>
+<polyline points="52.00,159.12 116.44,148.41 180.89,132.10 245.33,157.11 309.78,190.72 374.22,200.66 438.67,166.04 503.11,109.31 567.56,142.30 632.00,227.73" fill="none" stroke="#9467bd" stroke-width="1.6"/>
+<line x1="646" y1="90" x2="660" y2="90" stroke="#9467bd" stroke-width="2"/>
+<text x="664" y="94" class="legend">n4</text>
+<polyline points="52.00,120.76 116.44,122.43 180.89,116.35 245.33,103.98 309.78,149.37 374.22,152.42 438.67,108.43 503.11,96.94 567.56,106.53 632.00,157.14" fill="none" stroke="#8c564b" stroke-width="1.6"/>
+<line x1="646" y1="104" x2="660" y2="104" stroke="#8c564b" stroke-width="2"/>
+<text x="664" y="108" class="legend">n5</text>
+<polyline points="52.00,70.77 116.44,71.76 180.89,256.50 245.33,265.28 309.78,55.74 374.22,54.71 438.67,285.36 503.11,288.73 567.56,68.96 632.00,54.60" fill="none" stroke="#e377c2" stroke-width="1.6"/>
+<line x1="646" y1="118" x2="660" y2="118" stroke="#e377c2" stroke-width="2"/>
+<text x="664" y="122" class="legend">n6</text>
+<polyline points="52.00,54.99 116.44,72.24 180.89,87.94 245.33,53.47 309.78,53.47 374.22,116.05 438.67,115.03 503.11,53.33 567.56,53.31 632.00,121.21" fill="none" stroke="#7f7f7f" stroke-width="1.6"/>
+<line x1="646" y1="132" x2="660" y2="132" stroke="#7f7f7f" stroke-width="2"/>
+<text x="664" y="136" class="legend">n7</text>
+<polyline points="52.00,228.45 116.44,293.46 180.89,290.99 245.33,286.23 309.78,293.15 374.22,293.16 438.67,273.79 503.11,274.45 567.56,293.24 632.00,293.24" fill="none" stroke="#bcbd22" stroke-width="1.6"/>
+<line x1="646" y1="146" x2="660" y2="146" stroke="#bcbd22" stroke-width="2"/>
+<text x="664" y="150" class="legend">n8</text>
+<polyline points="52.00,238.32 116.44,180.61 180.89,109.66 245.33,123.10 309.78,161.45 374.22,204.50 438.67,172.51 503.11,86.97 567.56,101.61 632.00,229.83" fill="none" stroke="#17becf" stroke-width="1.6"/>
+<line x1="646" y1="160" x2="660" y2="160" stroke="#17becf" stroke-width="2"/>
+<text x="664" y="164" class="legend">n9</text>
+<polyline points="52.00,205.22 116.44,269.53 180.89,155.55 245.33,64.22 309.78,153.35 374.22,264.68 438.67,268.47 503.11,112.15 567.56,58.32 632.00,163.90" fill="none" stroke="#393b79" stroke-width="1.6"/>
+<line x1="646" y1="174" x2="660" y2="174" stroke="#393b79" stroke-width="2"/>
+<text x="664" y="178" class="legend">n10</text>
+<polyline points="52.00,172.59 116.44,200.99 180.89,261.91 245.33,76.96 309.78,54.30 374.22,215.69 438.67,284.91 503.11,258.40 567.56,56.80 632.00,54.16" fill="none" stroke="#637939" stroke-width="1.6"/>
+<line x1="646" y1="188" x2="660" y2="188" stroke="#637939" stroke-width="2"/>
+<text x="664" y="192" class="legend">n11</text>
+<polyline points="52.00,178.75 116.44,229.62 180.89,230.39 245.33,119.46 309.78,99.01 374.22,258.15 438.67,259.65 503.11,180.77 567.56,94.55 632.00,142.08" fill="none" stroke="#8c6d31" stroke-width="1.6"/>
+<line x1="646" y1="202" x2="660" y2="202" stroke="#8c6d31" stroke-width="2"/>
+<text x="664" y="206" class="legend">n12</text>
+<polyline points="52.00,153.79 116.44,91.99 180.89,116.46 245.33,125.51 309.78,78.07 374.22,74.49 438.67,155.85 503.11,155.89 567.56,91.92 632.00,73.74" fill="none" stroke="#843c39" stroke-width="1.6"/>
+<line x1="646" y1="216" x2="660" y2="216" stroke="#843c39" stroke-width="2"/>
+<text x="664" y="220" class="legend">n13</text>
+<polyline points="52.00,194.53 116.44,186.19 180.89,185.45 245.33,180.09 309.78,179.03 374.22,188.90 438.67,189.76 503.11,174.63 567.56,174.47 632.00,185.52" fill="none" stroke="#7b4173" stroke-width="1.6"/>
+<line x1="646" y1="230" x2="660" y2="230" stroke="#7b4173" stroke-width="2"/>
+<text x="664" y="234" class="legend">n14</text>
+<polyline points="52.00,180.05 116.44,179.72 180.89,179.86 245.33,179.90 309.78,179.97 374.22,179.97 438.67,179.81 503.11,179.81 567.56,180.07 632.00,180.06" fill="none" stroke="#3182bd" stroke-width="1.6"/>
+<line x1="646" y1="244" x2="660" y2="244" stroke="#3182bd" stroke-width="2"/>
+<text x="664" y="248" class="legend">n15</text>
+<polyline points="52.00,174.47 116.44,111.90 180.89,59.96 245.33,212.71 309.78,290.44 374.22,216.95 438.67,61.34 503.11,60.24 567.56,271.47 632.00,291.30" fill="none" stroke="#e6550d" stroke-width="1.6"/>
+<line x1="646" y1="258" x2="660" y2="258" stroke="#e6550d" stroke-width="2"/>
+<text x="664" y="262" class="legend">n16</text>
+<polyline points="52.00,220.59 116.44,222.78 180.89,103.08 245.33,57.10 309.78,289.88 374.22,294.53 438.67,231.44 503.11,55.45 567.56,57.49 632.00,294.21" fill="none" stroke="#31a354" stroke-width="1.6"/>
+<line x1="646" y1="272" x2="660" y2="272" stroke="#31a354" stroke-width="2"/>
+<text x="664" y="276" class="legend">n17</text>
+</svg>

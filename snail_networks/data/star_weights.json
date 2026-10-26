@@ -1,0 +1,129 @@
+{
+  "version": 2,
+  "activation": "tanh",
+  "synapses": [
+    {
+      "source": 0,
+      "target": 1,
+      "weight": -0.21700220801251127,
+      "flip_sign": false,
+      "index": 0
+    },
+    {
+      "source": 1,
+      "target": 0,
+      "weight": -1.4913925162692216,
+      "flip_sign": false,
+      "index": 1
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "weight": -0.121183043195513,
+      "flip_sign": false,
+      "index": 2
+    },
+    {
+      "source": 2,
+      "target": 0,
+      "weight": -1.4784225686051462,
+      "flip_sign": false,
+      "index": 3
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "weight": 0.8787038540403932,
+      "flip_sign": false,
+      "index": 4
+    },
+    {
+      "source": 3,
+      "target": 0,
+      "weight": 0.8677367496395691,
+      "flip_sign": false,
+      "index": 5
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "weight": 0.2335525074117407,
+      "flip_sign": false,
+      "index": 6
+    },
+    {
+      "source": 4,
+      "target": 0,
+      "weight": 0.9047523918694315,
+      "flip_sign": false,
+      "index": 7
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "weight": -1.0291452308022497,
+      "flip_sign": false,
+      "index": 8
+    },
+    {
+      "source": 5,
+      "target": 0,
+      "weight": -0.7884013668875607,
+      "flip_sign": false,
+      "index": 9
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "weight": -1.1732386314022372,
+      "flip_sign": false,
+      "index": 10
+    },
+    {
+      "source": 6,
+      "target": 0,
+      "weight": -1.0299912819149257,
+      "flip_sign": false,
+      "index": 11
+    },
+    {
+      "source": 0,
+      "target": 7,
+      "weight": 1.3017916778174474,
+      "flip_sign": false,
+      "index": 12
+    },
+    {
+      "source": 7,
+      "target": 0,
+      "weight": 0.4748874712871019,
+      "flip_sign": false,
+      "index": 13
+    },
+    {
+      "source": 0,
+      "target": 8,
+      "weight": -2.197504009614623,
+      "flip_sign": false,
+      "index": 14
+    },
+    {
+      "source": 8,
+      "target": 0,
+      "weight": 0.028773952592690367,
+      "flip_sign": false,
+      "index": 15
+    }
+  ],
+  "biases": [
+    0.7405223224194412,
+    -0.17730809031636655,
+    -0.22715120254483784,
+    0.2090293206927638,
+    0.5763389206074426,
+    -0.13370620851436124,
+    -0.18196109577848602,
+    -0.7230822091727693,
+    -0.12086125738485119
+  ]
+}

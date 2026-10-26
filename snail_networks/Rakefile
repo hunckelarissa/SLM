@@ -1,0 +1,20 @@
+# frozen_string_literal: true
+
+require "rspec/core/rake_task"
+
+RSpec::Core::RakeTask.new(:spec)
+
+desc "Запуск всех тестов (RSpec)"
+task test: :spec
+
+desc "Запуск эксперимента со всеми 12 топологиями"
+task :run_all do
+  ruby "experiments/run_all.rb"
+end
+
+desc "Примеры применения"
+task :examples do
+  ruby "examples/run_examples.rb"
+end
+
+task default: :test

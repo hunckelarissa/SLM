@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="326" viewBox="0 0 640 326">
+<style>text{font-family:sans-serif}.title{font-size:14px;fill:#222}.tick,.legend{font-size:11px;fill:#333}.grid{stroke:#ececec}.axis{stroke:#444}</style>
+<rect width="640" height="326" fill="#fff"/>
+<text x="16" y="22" class="title">Точность знака</text>
+<line x1="108" y1="34" x2="108" y2="298" class="axis"/>
+<text x="100" y="50" text-anchor="end" class="legend">cube</text>
+<rect x="108" y="38" width="516.00" height="14" fill="#1f77b4"/>
+<text x="628.0" y="50" class="tick">1.00</text>
+<text x="100" y="72" text-anchor="end" class="legend">nested_rings</text>
+<rect x="108" y="60" width="516.00" height="14" fill="#1f77b4"/>
+<text x="628.0" y="72" class="tick">1.00</text>
+<text x="100" y="94" text-anchor="end" class="legend">spiral</text>
+<rect x="108" y="82" width="451.50" height="14" fill="#1f77b4"/>
+<text x="563.5" y="94" class="tick">0.88</text>
+<text x="100" y="116" text-anchor="end" class="legend">layered</text>
+<rect x="108" y="104" width="451.50" height="14" fill="#1f77b4"/>
+<text x="563.5" y="116" class="tick">0.88</text>
+<text x="100" y="138" text-anchor="end" class="legend">star</text>
+<rect x="108" y="126" width="451.50" height="14" fill="#1f77b4"/>
+<text x="563.5" y="138" class="tick">0.88</text>
+<text x="100" y="160" text-anchor="end" class="legend">clover</text>
+<rect x="108" y="148" width="387.00" height="14" fill="#1f77b4"/>
+<text x="499.0" y="160" class="tick">0.75</text>
+<text x="100" y="182" text-anchor="end" class="legend">flat_square</text>
+<rect x="108" y="170" width="346.69" height="14" fill="#1f77b4"/>
+<text x="458.6875" y="182" class="tick">0.67</text>
+<text x="100" y="204" text-anchor="end" class="legend">ring</text>
+<rect x="108" y="192" width="322.50" height="14" fill="#1f77b4"/>
+<text x="434.5" y="204" class="tick">0.62</text>
+<text x="100" y="226" text-anchor="end" class="legend">sphere</text>
+<rect x="108" y="214" width="322.50" height="14" fill="#1f77b4"/>
+<text x="434.5" y="226" class="tick">0.62</text>
+<text x="100" y="248" text-anchor="end" class="legend">double_helix</text>
+<rect x="108" y="236" width="322.50" height="14" fill="#1f77b4"/>
+<text x="434.5" y="248" class="tick">0.62</text>
+<text x="100" y="270" text-anchor="end" class="legend">mobius_strip</text>
+<rect x="108" y="258" width="322.50" height="14" fill="#1f77b4"/>
+<text x="434.5" y="270" class="tick">0.62</text>
+<text x="100" y="292" text-anchor="end" class="legend">chaotic_blob</text>
+<rect x="108" y="280" width="301.00" height="14" fill="#1f77b4"/>
+<text x="413.0" y="292" class="tick">0.58</text>
+</svg>

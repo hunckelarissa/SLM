@@ -1,0 +1,101 @@
+{
+  "version": 2,
+  "activation": "tanh",
+  "synapses": [
+    {
+      "source": 0,
+      "target": 1,
+      "weight": 0.4974410404417636,
+      "flip_sign": false,
+      "index": 0
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "weight": -2.553214562810033,
+      "flip_sign": false,
+      "index": 1
+    },
+    {
+      "source": 2,
+      "target": 0,
+      "weight": -1.462052769132207,
+      "flip_sign": false,
+      "index": 2
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "weight": 2.581695857461064,
+      "flip_sign": false,
+      "index": 3
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "weight": -1.6003776553774496,
+      "flip_sign": false,
+      "index": 4
+    },
+    {
+      "source": 4,
+      "target": 1,
+      "weight": -0.5029949368844584,
+      "flip_sign": false,
+      "index": 5
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "weight": -2.0682244550071642,
+      "flip_sign": false,
+      "index": 6
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "weight": -2.566282395965863,
+      "flip_sign": false,
+      "index": 7
+    },
+    {
+      "source": 6,
+      "target": 1,
+      "weight": -0.840605454427776,
+      "flip_sign": false,
+      "index": 8
+    },
+    {
+      "source": 0,
+      "target": 7,
+      "weight": -3.141234704156274e-08,
+      "flip_sign": false,
+      "index": 9
+    },
+    {
+      "source": 7,
+      "target": 8,
+      "weight": -3.7310187139963524e-10,
+      "flip_sign": false,
+      "index": 10
+    },
+    {
+      "source": 8,
+      "target": 1,
+      "weight": -0.5006346968376427,
+      "flip_sign": false,
+      "index": 11
+    }
+  ],
+  "biases": [
+    -1.7133185639888846,
+    -0.034165096280868605,
+    -0.0863314571986077,
+    -0.6252665853146099,
+    -0.848530408904193,
+    -0.1279144509219188,
+    -0.030477502130477205,
+    -2.3346612050236134e-08,
+    0.14829712293658553
+  ]
+}

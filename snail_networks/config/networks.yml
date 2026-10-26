@@ -1,0 +1,152 @@
+# Параметры всех 12 топологий «улиток».
+# Каждая сеть задаётся именем (ключ), типом (класс топологии) и гиперпараметрами.
+#
+# Общие поля:
+#   type            — имя класса топологии (без префикса SnailNetwork::Topologies::)
+#   input_size      — число входных нейронов; должно совпадать с топологией
+#   output_size     — число выходных нейронов; должно совпадать с топологией
+#   settle_steps    — такты дискретного времени в forward
+#                     (не меньше длины кратчайшего пути от входа до выхода)
+#   learning_rate   — шаг SGD (Layered)
+#   mutation_rate   — вероятность мутации одного параметра
+#   mutation_scale  — амплитуда мутации (по умолчанию 0.5)
+#   population_size — число потомков на эпоху
+#   epochs          — число эпох по умолчанию
+#   seed            — зерно генератора: граф ChaoticBlob и начальные веса повторяемы
+#   activation      — tanh (по умолчанию), sigmoid или linear
+
+flat_square:
+  type: FlatSquare
+  input_size: 4
+  output_size: 4
+  # От верхнего ряда до нижнего 3 ребра. Один такт оставлял выход нулевым.
+  settle_steps: 6
+  learning_rate: 0.1
+  mutation_rate: 0.3
+  population_size: 30
+  epochs: 300
+  seed: 101
+
+ring:
+  type: Ring
+  input_size: 2
+  output_size: 2
+  settle_steps: 10
+  learning_rate: 0.1
+  mutation_rate: 0.3
+  population_size: 30
+  epochs: 300
+  seed: 102
+
+spiral:
+  type: Spiral
+  input_size: 2
+  output_size: 2
+  settle_steps: 8
+  learning_rate: 0.1
+  mutation_rate: 0.3
+  population_size: 30
+  epochs: 300
+  seed: 103
+
+cube:
+  type: Cube
+  input_size: 2
+  output_size: 2
+  settle_steps: 8
+  learning_rate: 0.1
+  mutation_rate: 0.3
+  population_size: 30
+  epochs: 300
+  seed: 104
+
+chaotic_blob:
+  type: ChaoticBlob
+  input_size: 3
+  output_size: 3
+  # Кольцевой каркас из 20 нейронов имеет путь длиной до 17 рёбер.
+  settle_steps: 20
+  learning_rate: 0.1
+  mutation_rate: 0.4
+  population_size: 40
+  epochs: 300
+  seed: 105
+
+layered:
+  type: Layered
+  input_size: 3
+  hidden_size: 6
+  output_size: 2
+  # Два ребра: вход → скрытый → выход. Третий такт оставляет состояние устойчивым.
+  settle_steps: 3
+  learning_rate: 0.5
+  mutation_rate: 0.2
+  population_size: 30
+  epochs: 300
+  seed: 106
+
+nested_rings:
+  type: NestedRings
+  input_size: 2
+  output_size: 2
+  settle_steps: 10
+  learning_rate: 0.1
+  mutation_rate: 0.3
+  population_size: 30
+  epochs: 300
+  seed: 107
+
+sphere:
+  type: Sphere
+  input_size: 2
+  output_size: 2
+  settle_steps: 8
+  learning_rate: 0.1
+  mutation_rate: 0.3
+  population_size: 30
+  epochs: 300
+  seed: 108
+
+star:
+  type: Star
+  input_size: 2
+  output_size: 2
+  settle_steps: 5
+  learning_rate: 0.1
+  mutation_rate: 0.3
+  population_size: 30
+  epochs: 300
+  seed: 109
+
+double_helix:
+  type: DoubleHelix
+  input_size: 2
+  output_size: 2
+  settle_steps: 10
+  learning_rate: 0.1
+  mutation_rate: 0.3
+  population_size: 30
+  epochs: 300
+  seed: 110
+
+clover:
+  type: Clover
+  input_size: 3
+  output_size: 3
+  settle_steps: 8
+  learning_rate: 0.1
+  mutation_rate: 0.3
+  population_size: 30
+  epochs: 300
+  seed: 111
+
+mobius_strip:
+  type: MobiusStrip
+  input_size: 2
+  output_size: 2
+  settle_steps: 12
+  learning_rate: 0.1
+  mutation_rate: 0.3
+  population_size: 30
+  epochs: 300
+  seed: 112

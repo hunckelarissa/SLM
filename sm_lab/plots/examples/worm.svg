@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360">
+  <rect width="100%" height="100%" fill="#fbfaf6"/>
+  <text x="24" y="28" font-family="Georgia, serif" font-size="18">Червь: касание гасит прямой ход</text>
+  <rect x="240" y="12" width="14" height="4" fill="#1f4d3a"/><text x="260" y="22" font-size="13">Положение</text>
+  <line x1="56" y1="48" x2="56" y2="314" stroke="#222" stroke-width="1"/>
+  <line x1="56" y1="314" x2="696" y2="314" stroke="#222" stroke-width="1"/>
+  <text x="16" y="60" font-size="12">0.92</text>
+  <text x="16" y="314" font-size="12">-0.92</text>
+  <text x="356" y="348" font-size="13">Шаг</text>
+  <text x="18" y="40" font-size="13">Положение</text>
+  <polyline fill="none" stroke="#1f4d3a" stroke-width="2" points="56.00,181.00 85.09,163.03 114.18,145.05 143.27,127.08 172.36,109.11 201.45,91.14 230.55,73.16 259.64,55.19 288.73,55.19 317.82,73.16 346.91,91.14 376.00,109.11 405.09,127.08 434.18,145.05 463.27,163.03 492.36,181.00 521.45,198.97 550.55,216.95 579.64,234.92 608.73,252.89 637.82,270.86 666.91,288.84 696.00,306.81"/>
+</svg>
